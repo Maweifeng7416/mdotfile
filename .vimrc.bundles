@@ -1,0 +1,12 @@
+" 将vundle路径加入Runtime Path
+set rtp+=~/.vim/bundle/vundle/
+
+call vundle#begin()
+
+Bundle 'gmarik/Vundle.vim'
+Bundle 'scrooloose/nerdtree'
+Bundle 'jiangmiao/auto-pairs'
+
+
+
+call vundle#end()
