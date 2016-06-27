@@ -67,3 +67,4 @@ map <C-l> <C-W>l
 
 " NERDTree
 map <F2> <esc>:NERDTree<CR>
+
