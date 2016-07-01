@@ -83,3 +83,8 @@ source $ZSH/oh-my-zsh.sh
 # Example aliases
 # alias zshconfig="mate ~/.zshrc"
 alias cls="clear"
+alias al="ls -al"
+
+source ~/.autojump/etc/profile.d/autojump.sh
+
+export DISABLE_AUTO_TITLE=true

@@ -3,9 +3,10 @@ set rtp+=~/.vim/bundle/vundle/
 
 call vundle#begin()
 
-Bundle 'gmarik/Vundle.vim'
 Bundle 'scrooloose/nerdtree'
 Bundle 'jiangmiao/auto-pairs'
+Bundle 'Maweifeng7416/YouCompleteMe'
+Bundle 'Maweifeng7416/jedi'
 
 
 

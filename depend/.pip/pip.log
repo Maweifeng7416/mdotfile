@@ -1,0 +1,27 @@
+------------------------------------------------------------
+/home/maweifeng/Project/spider_env/bin/pip2.7 run on Fri Jul  1 14:37:39 2016
+Downloading/unpacking mysql-connector-pthon
+  Getting page https://pypi.python.org/simple/mysql_connector-pthon/
+  Could not fetch URL https://pypi.python.org/simple/mysql_connector-pthon/: 404 Client Error: Not Found
+  Will skip URL https://pypi.python.org/simple/mysql_connector-pthon/ when looking for download links for mysql-connector-pthon
+  Getting page https://pypi.python.org/simple/
+  URLs to search for versions for mysql-connector-pthon:
+  * https://pypi.python.org/simple/mysql_connector-pthon/
+  Getting page https://pypi.python.org/simple/mysql_connector-pthon/
+  Could not fetch URL https://pypi.python.org/simple/mysql_connector-pthon/: 404 Client Error: Not Found
+  Will skip URL https://pypi.python.org/simple/mysql_connector-pthon/ when looking for download links for mysql-connector-pthon
+  Could not find any downloads that satisfy the requirement mysql-connector-pthon
+Cleaning up...
+  Removing temporary dir /home/maweifeng/Project/spider_env/build...
+No distributions at all found for mysql-connector-pthon
+Exception information:
+Traceback (most recent call last):
+  File "/home/maweifeng/Project/spider_env/local/lib/python2.7/site-packages/pip/basecommand.py", line 122, in main
+    status = self.run(options, args)
+  File "/home/maweifeng/Project/spider_env/local/lib/python2.7/site-packages/pip/commands/install.py", line 278, in run
+    requirement_set.prepare_files(finder, force_root_egg_info=self.bundle, bundle=self.bundle)
+  File "/home/maweifeng/Project/spider_env/local/lib/python2.7/site-packages/pip/req.py", line 1177, in prepare_files
+    url = finder.find_requirement(req_to_install, upgrade=self.upgrade)
+  File "/home/maweifeng/Project/spider_env/local/lib/python2.7/site-packages/pip/index.py", line 277, in find_requirement
+    raise DistributionNotFound('No distributions at all found for %s' % req)
+DistributionNotFound: No distributions at all found for mysql-connector-pthon
