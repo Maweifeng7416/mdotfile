@@ -110,3 +110,19 @@ nnoremap <leader>gf :YcmComleter GoToDefinition<CR>
 
 inoremap <leader><leader> <C-x><C-0>
 
+" vim-airline
+
+let g:airline_theme="luna"
+let g:airline_powerline_fonts=1
+
+let g:airline#extension#tabline#enabled = 1
+let g:airline#extension#tabline#buffer_nr_show = 1
+
+" 设置切换Buffer快捷键
+nnoremap <C-N> :bn<CR>
+nnoremap <C-P> :bp<CR>
+
+" 关闭状态栏显示空白符号计数
+let g:airline#extensions#whitespace#enable = 0
+let g:airline#extensions#whitespace#symbol='!'
+
