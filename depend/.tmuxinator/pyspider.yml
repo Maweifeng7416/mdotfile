@@ -32,5 +32,5 @@ windows:
       layout: main-vertical
       panes:
         - vim
-        - guard
-  -  
+        - ~/Project/env_spider/bin/ipython2 
+  - server: ~/Project/pyspider/start.sh
