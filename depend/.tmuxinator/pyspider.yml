@@ -34,3 +34,12 @@ windows:
         - vim
         - ~/Project/env_spider/bin/ipython2 
   - server: ~/Project/pyspider/start.sh
+  - logs:
+      layout: tiled 
+      panes:
+        - tail -f ~/Project/LOG/webui.log
+        - tail -f ~/Project/LOG/fetcher.log
+        - tail -f ~/Project/LOG/result_worker.log
+        - tail -f ~/Project/LOG/scheduler.log
+        - tail -f ~/Project/LOG/processor.log
+

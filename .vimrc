@@ -80,10 +80,10 @@ inoremap <expr> <PageDown> pumvisible()?"\<PageDown>\<C-p>\<C-n>":"\<PageDown>"
 inoremap <expr> <PageUp> pumvisible()?"\<PageUp>\<C-p>\<C-n>":"\<PageUp>"
 
 "YouCompleteMe 默认 tab s-tab和自动补全冲突
-" let g:ycm_key_list_select_completion=['<c-n>']
-let g:ycm_key_list_select_completion = ['<Down>']
-" let g:ycm_key_list_select_completion=['<c-p>']
-let g:ycm_key_list_select_completion=['<Up>']
+let g:ycm_key_list_select_completion=['<c-n>']
+"let g:ycm_key_list_select_completion = ['<Down>']
+let g:ycm_key_list_select_completion=['<c-p>']
+"let g:ycm_key_list_select_completion=['<Up>']
 " 关闭 加载.ycm_confirm_extra_conf.py 的提示
 let g:ycm_confirm_extra_conf=0
 
