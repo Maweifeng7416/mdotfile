@@ -14,3 +14,4 @@ ln -s ~/mdotfile/.zshrc ~/.zshrc
 ln -s ~/mdotfile/depend/.vim ~/.vim
 ln -s ~/mdotfile/depend/.pip ~/.pip
 ln -s ~/mdotfile/depend/.local ~/.local
+ln -s ~/mdotfile/depend/.tmuxinator ~/.tmuxinator
