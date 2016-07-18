@@ -1,4 +1,4 @@
-#!/bin/bash
+!/bin/bash
 
 apt-get install zsh
 apt-get install tmux
@@ -13,5 +13,8 @@ ln -s ~/mdotfile/.vimrc.bundles ~/.vimrc.bundles
 ln -s ~/mdotfile/.zshrc ~/.zshrc
 ln -s ~/mdotfile/depend/.vim ~/.vim
 ln -s ~/mdotfile/depend/.pip ~/.pip
-ln -s ~/mdotfile/depend/.local ~/.local
 ln -s ~/mdotfile/depend/.tmuxinator ~/.tmuxinator
+cp ~/mdotfile/depend/.local/share/* ~/.local/share/ -rf
+
+chsh -s /bin/zsh
+
