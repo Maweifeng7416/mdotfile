@@ -84,7 +84,7 @@ source $ZSH/oh-my-zsh.sh
 # alias zshconfig="mate ~/.zshrc"
 alias cls="clear"
 alias al="ls -al"
-
+alias ipshort="ifconfig|grep 'inet addr'"
 source ~/.autojump/etc/profile.d/autojump.sh
 
 export DISABLE_AUTO_TITLE=true
